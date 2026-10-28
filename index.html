@@ -279,23 +279,29 @@ h3 {font-size:20px!important}
   .sidebar {overflow: visible !important; max-height: none !important;}
 }
 </style>
+<style>
+/* Final refinements: the name appears once, in the sidebar. */
+.hero > .subtitle { margin-top: 17px !important; margin-bottom: 16px !important; font-family: 'Newsreader', Georgia, serif !important; font-size: clamp(22px, 2.15vw, 29px) !important; line-height: 1.27 !important; letter-spacing: -.02em !important; color: #263d55 !important; max-width: 790px !important; }
+.side-link-group { margin-bottom: 3px !important; }
+@media (max-width:880px) { .hero > .subtitle {font-size: 24px !important;} }
+</style>
 </head>
 <body>
 <div class="layout">
 <aside aria-label="Primary navigation" class="sidebar">
 <div class="monogram">WW</div>
 <h2 class="side-name">Wei-Ting Wang</h2>
-<p class="side-role">Computational Biomedical Research</p>
 <div class="opportunity-chip"><span aria-hidden="true" class="status-dot"></span>Open to PhD opportunities<br/><small>Beginning Fall 2027</small></div><nav class="side-nav"><a href="#about">About</a><a href="#research">Research</a><a href="#questions">Questions</a><a href="#publications">Publications</a><a href="#mentoring">Experience</a><a href="#honors">Honors</a><a href="#contact">Contact</a></nav>
+<div class="sidebar-section side-link-group"><div class="sidebar-roles-heading">Academic Profile</div><a class="scholar-link" href="https://scholar.google.com/citations?user=Y4nDpK0AAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">Google Scholar <span aria-hidden="true">↗</span></a></div>
 <div aria-label="Technical skills" class="side-skills sidebar-section"><div class="sidebar-roles-heading">Technical Skills</div>
 <div class="side-skill"><strong>Programming</strong><span>Python · R · SQL</span></div>
 <div class="side-skill"><strong>Clinical &amp; Biomedical Data</strong><span>Longitudinal EHR · OMOP CDM · Single-cell transcriptomics</span></div>
 <div class="side-skill"><strong>Computational Methods</strong><span>Machine learning · Survival analysis · Knowledge graph inference</span></div>
-</div><div class="sidebar-section side-link-group"><div class="sidebar-roles-heading">Academic Profile</div><a class="scholar-link" href="https://scholar.google.com/citations?user=Y4nDpK0AAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">Google Scholar <span aria-hidden="true">↗</span></a></div></aside>
+</div></aside>
 <main class="main" id="about">
 <header class="hero">
 <div class="eyebrow">Research Assistant · Weill Cornell Medicine</div>
-<h1>Wei-Ting Wang</h1>
+
 <p class="subtitle">Computational Biomedical Informatics · Clinical Phenotyping · Multimodal Data</p>
 <p class="intro">I am a Research Assistant in the Division of Health Informatics and Artificial Intelligence, Department of Population Health Sciences, at Weill Cornell Medicine, working with Prof. Chang Su. My research focuses on computational approaches that integrate longitudinal electronic health records, biomedical knowledge graphs, and single-cell transcriptomic data to investigate disease heterogeneity and molecular mechanisms.</p>
 <div class="interest-panel"><div class="panel-label">Research Interests</div><p>My research interests lie in computational phenotyping, patient stratification, and the integration of longitudinal EHR, biomedical knowledge graphs, and single-cell transcriptomic data to investigate disease heterogeneity and mechanisms relevant to precision medicine.</p></div></header>
