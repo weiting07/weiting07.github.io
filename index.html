@@ -195,7 +195,28 @@ h3 {font-size:20px!important}
 .subtitle {font-size:17px!important}
 .hero {padding-bottom:42px!important}
 @media(max-width:880px){h1{font-size:clamp(35px,7vw,43px)!important}.side-name{font-size:27px!important}h2,.pub-summary-heading{font-size:30px!important}.project-title{font-size:19px!important}}
-</style></head>
+</style><style>
+/* Center expandable plus/minus marks in their circular controls. */
+.project summary::after,
+.all-publications summary::after {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+</style>
+</head>
 <body>
 <div class="layout">
 <aside aria-label="Primary navigation" class="sidebar">
